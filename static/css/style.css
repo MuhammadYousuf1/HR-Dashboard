@@ -186,21 +186,23 @@ canvas { max-height: 220px; }
 
 .table-responsive { max-height: 420px; overflow-y: auto; }
 
-#payrollTable { background: transparent; }
+#payrollTable { background: #ffffff; }
 #payrollTable thead th {
-  background: var(--bg3); color: var(--muted);
+  background: #ffffff; color: #000000;
   font-size: 11px; text-transform: uppercase; letter-spacing: .5px;
   border-color: var(--border); padding: 10px 12px;
   position: sticky; top: 0; z-index: 1;
   white-space: nowrap;
 }
 #payrollTable tbody tr {
+  background-color: #ffffff;
   border-color: var(--border);
   transition: background .15s;
 }
-#payrollTable tbody tr:hover { background: rgba(79,142,247,.07); }
+#payrollTable tbody tr:hover { background-color: #f1f4f9; }
 #payrollTable tbody td {
-  color: var(--text); font-size: 12.5px;
+  background-color: #ffffff;
+  color: #000000; font-size: 12.5px;
   border-color: var(--border); padding: 9px 12px;
   vertical-align: middle;
 }
