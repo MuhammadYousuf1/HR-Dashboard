@@ -1,0 +1,10 @@
+# Exclude from Vercel deployment
+.venv
+__pycache__
+*.pyc
+.git
+.vercel
+server.log
+uploads
+.gitignore
+.vercelignore
